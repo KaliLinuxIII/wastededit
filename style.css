@@ -11,3 +11,97 @@ button {
   cursor: pointer;
   transition: opacity 2s;
 }
+
+p {
+  text-align: center;
+}
+
+.step1 {
+  animation: step1 1s ease-in-out;
+}
+
+.step2 {
+  animation: step2 4s ease-in-out;
+}
+
+.step3 {
+  animation: step3 1s ease-in-out;
+}
+
+.step21 {
+  animation: step21 0.5s ease-in-out;
+}
+
+@keyframes step1 {
+  0% {
+    color: red;
+    transform: scale(150%);
+  }
+
+  50% {
+    color: crimson;
+    transform: scale(200%);
+    transform: rotate(15deg);
+  }
+
+  100% {
+    color: red;
+    transform: rotate(-15deg);
+    transform: scale(100%);
+  }
+}
+
+@keyframes step2 {
+  0% {
+    color: darkred;
+  }
+
+  20% {
+    color: red;
+    transform: rotate(45deg);
+  }
+
+  40% {
+    color: darkred;
+    transform: rotate(-45deg);
+  }
+
+  60% {
+    color: crimson;
+    transform: rotate(50deg);
+  }
+
+  80% {
+    color: red;
+  }
+
+  100% {
+    
+  }
+}
+
+@keyframes step3 {
+  0% {
+    color: crimson;
+  }
+
+  50% {
+    transform: rotate(360deg);
+    color: darkred;
+  }
+
+  100% {
+
+  }
+}
+
+
+@keyframes step21 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
