@@ -10,105 +10,113 @@ const playBtn = document.querySelector('.play-btn');
  * @type HTMLParagraphElement
  */
 const editTextDisplay = document.querySelector('.edit-text-display');
+/**
+ * HTMLDivElement
+ */
+const editDisplay = document.querySelector('.edit-display');
 
 const step1 = () => {
-  editTextDisplay.textContent = 'hold up'
+  editTextDisplay.textContent = 'hold up';
+  editDisplay.classList.add('step1');
 };
 const step2 = () => {
-  editTextDisplay.textContent = 'let'
+  editTextDisplay.textContent = 'let';
+  editDisplay.classList.add('step2');
 };
 const step3 = () => {
-  editTextDisplay.textContent = 'me'
+  editTextDisplay.textContent = 'me';
 };
 const step4 = () => {
-  editTextDisplay.textContent = 'be'
+  editTextDisplay.textContent = 'be';
 };
 const step5 = () => {
-  editTextDisplay.textContent = 'honest'
+  editTextDisplay.textContent = 'honest';
 };
 const step6 = () => {
-  editTextDisplay.textContent = 'I'
+  editTextDisplay.textContent = 'I';
 };
 const step7 = () => {
-  editTextDisplay.textContent = 'know'
+  editTextDisplay.textContent = 'know';
 };
 const step8 = () => {
-  editTextDisplay.textContent = 'I'
+  editTextDisplay.textContent = 'I';
 };
 const step9 = () => {
-  editTextDisplay.textContent = 'saw'
+  editTextDisplay.textContent = 'saw';
 };
 const step10 = () => {
-  editTextDisplay.textContent = 'her'
+  editTextDisplay.textContent = 'her';
 };
 const step11 = () => {
-  editTextDisplay.textContent = 'put'
+  editTextDisplay.textContent = 'put';
 };
 const step12= () => {
-  editTextDisplay.textContent = 'the'
+  editTextDisplay.textContent = 'the';
 };
 const step13 = () => {
-  editTextDisplay.textContent = 'perks'
+  editTextDisplay.textContent = 'perks';
 };
 const step14 = () => {
-  editTextDisplay.textContent = 'in'
+  editTextDisplay.textContent = 'in';
 };
 const step15 = () => {
-  editTextDisplay.textContent = 'my'
+  editTextDisplay.textContent = 'my';
 };
 const step16 = () => {
-  editTextDisplay.textContent = 'chronic'
+  editTextDisplay.textContent = 'chronic';
+  editDisplay.classList.add('step3');
 };
 const step17 = () => {
-  editTextDisplay.textContent = 'smokin'
+  editTextDisplay.textContent = 'smokin';
 };
 const step18 = () => {
-  editTextDisplay.textContent = 'till'
+  editTextDisplay.textContent = 'till';
 };
 const step19 = () => {
-  editTextDisplay.textContent = 'my'
+  editTextDisplay.textContent = 'my';
 };
 const step20 = () => {
-  editTextDisplay.textContent = 'eyes'
+  editTextDisplay.textContent = 'eyes';
 };
 const step21 = () => {
-  editTextDisplay.textContent = 'roll'
+  editTextDisplay.textContent = 'roll';
+  editDisplay.classList.add('step21');
 };
 const step22 = () => {
-  editTextDisplay.textContent = 'back'
+  editTextDisplay.textContent = 'back';
 };
 const step23= () => {
-  editTextDisplay.textContent = 'like'
+  editTextDisplay.textContent = 'like';
 };
 const step24 = () => {
-  editTextDisplay.textContent = 'the'
+  editTextDisplay.textContent = 'the';
 };
 const step25 = () => {
-  editTextDisplay.textContent = 'old'
+  editTextDisplay.textContent = 'old';
 };
 const step26 = () => {
-  editTextDisplay.textContent = 'man'
+  editTextDisplay.textContent = 'man';
 };
 const step27 = () => {
-  editTextDisplay.textContent = 'just'
+  editTextDisplay.textContent = 'just';
 };
 const step28 = () => {
-  editTextDisplay.textContent = 'another'
+  editTextDisplay.textContent = 'another';
 };
 const step29 = () => {
-  editTextDisplay.textContent = 'funeral'
+  editTextDisplay.textContent = 'funeral';
 };
 const step30 = () => {
-  editTextDisplay.textContent = 'for'
+  editTextDisplay.textContent = 'for';
 };
 const step31 = () => {
-  editTextDisplay.textContent = 'her'
+  editTextDisplay.textContent = 'her';
 };
 const step32 = () => {
-  editTextDisplay.textContent = 'godamn'
+  editTextDisplay.textContent = 'godamn';
 };
 const step33 = () => {
-  editTextDisplay.textContent = 'wasted'
+  editTextDisplay.textContent = 'wasted';
 };
 
 function playWastedEditAudio() {
