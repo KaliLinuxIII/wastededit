@@ -48,7 +48,9 @@ p {
   animation: step8 1.4s ease-in-out;
 }
 
-
+.step9 {
+  animation: step9 2s ease-in-out;
+}
 
 @keyframes step1 {
   0% {
@@ -165,5 +167,7 @@ p {
 }
 
 @keyframes step9 {
-  
+  50% {
+    transform: rotate(180deg);
+  }
 }

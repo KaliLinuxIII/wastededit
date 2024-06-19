@@ -97,6 +97,7 @@ const step24 = () => {
 };
 const step25 = () => {
   editTextDisplay.textContent = 'old';
+  editDisplay.classList.add('step9');
 };
 const step26 = () => {
   editTextDisplay.textContent = 'man';
