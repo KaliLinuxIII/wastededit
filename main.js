@@ -83,11 +83,11 @@ const step20 = () => {
 };
 const step21 = () => {
   editTextDisplay.textContent = 'roll';
-  editDisplay.classList.add('step21');
+  editDisplay.classList.add('step7');
 };
 const step22 = () => {
   editTextDisplay.textContent = 'back';
-  editDisplay.classList.add('step7');
+  editDisplay.classList.add('step8');
 };
 const step23= () => {
   editTextDisplay.textContent = 'like';
