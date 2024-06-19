@@ -40,6 +40,10 @@ p {
   animation: step6 1s ease-in-out;
 }
 
+.step7 {
+  animation: step7 0.5s ease-in-out;
+}
+
 .step21 {
   animation: step21 0.5s ease-in-out;
 }
@@ -130,6 +134,16 @@ p {
 
   50% {
     transform: scaleX(150%);
+  }
+}
+
+@keyframes step7 {
+  0% {
+    color: rgb(245, 68, 98);
+  }
+
+  50% {
+    transform: scale(75%);
   }
 }
 

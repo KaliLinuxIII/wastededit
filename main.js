@@ -87,6 +87,7 @@ const step21 = () => {
 };
 const step22 = () => {
   editTextDisplay.textContent = 'back';
+  editDisplay.classList.add('step7');
 };
 const step23= () => {
   editTextDisplay.textContent = 'like';
