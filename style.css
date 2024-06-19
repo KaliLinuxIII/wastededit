@@ -49,7 +49,7 @@ p {
 }
 
 .step9 {
-  animation: step9 2s ease-in-out;
+  animation: step9 2.5s ease-in-out;
 }
 
 @keyframes step1 {
@@ -167,7 +167,16 @@ p {
 }
 
 @keyframes step9 {
+  0% {
+    color: rgb(100, 16, 30);
+  }
+
   50% {
     transform: rotate(180deg);
+    color: rgb(185, 82, 99);
+  }
+
+  100% {
+    color: rgb(100, 16, 30);
   }
 }
