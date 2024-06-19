@@ -17,7 +17,7 @@ p {
 }
 
 .step1 {
-  animation: step1 1s ease-in-out;
+  animation: step1 1.5s ease-in-out;
 }
 
 .step2 {
@@ -30,6 +30,10 @@ p {
 
 .step4 {
   animation: step4 2s ease-in-out;
+}
+
+.step5 {
+  animation: step5 0.5s ease-in-out;
 }
 
 .step21 {
@@ -78,10 +82,6 @@ p {
   80% {
     color: red;
   }
-
-  100% {
-    
-  }
 }
 
 @keyframes step3 {
@@ -93,20 +93,16 @@ p {
     transform: rotate(360deg);
     color: darkred;
   }
-
-  100% {
-
-  }
 }
 
 @keyframes step4 {
   0% {
-    color: darkblue;
+    color: rgb(223, 85, 131);
   }
 
   50% {
-    color: royalblue;
-    transform: rotate(180deg);
+    color: rgb(185, 38, 63);
+    transform: rotate(-180deg);
   }
 
   100% {
@@ -114,6 +110,14 @@ p {
   }
 }
 
+@keyframes step5 {
+  0% {
+    color: rgb(216, 131, 145);
+  }
+  50% {
+    transform: scale(200%);
+  }
+}
 
 @keyframes step21 {
   0% {

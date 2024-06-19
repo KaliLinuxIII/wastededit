@@ -69,6 +69,7 @@ const step16 = () => {
 };
 const step17 = () => {
   editTextDisplay.textContent = 'smokin';
+  editDisplay.classList.add('step5');
 };
 const step18 = () => {
   editTextDisplay.textContent = 'till';
@@ -158,6 +159,7 @@ function playWastedEditAudio() {
 
   playBtn.disabled = true;
   playBtn.style.opacity = 0;
+  playBtn.style.cursor = 'default';
 };
 
 playBtn.addEventListener('click', playWastedEditAudio);
