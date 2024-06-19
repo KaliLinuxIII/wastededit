@@ -73,6 +73,7 @@ const step17 = () => {
 };
 const step18 = () => {
   editTextDisplay.textContent = 'till';
+  editDisplay.classList.add('step6');
 };
 const step19 = () => {
   editTextDisplay.textContent = 'my';
