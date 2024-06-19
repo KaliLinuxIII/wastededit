@@ -52,6 +52,7 @@ const step11 = () => {
 };
 const step12= () => {
   editTextDisplay.textContent = 'the';
+  editDisplay.classList.add('step4');
 };
 const step13 = () => {
   editTextDisplay.textContent = 'perks';
