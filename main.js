@@ -11,7 +11,7 @@ const playBtn = document.querySelector('.play-btn');
  */
 const editTextDisplay = document.querySelector('.edit-text-display');
 /**
- * HTMLDivElement
+ * @type HTMLDivElement
  */
 const editDisplay = document.querySelector('.edit-display');
 
@@ -113,18 +113,20 @@ const step29 = () => {
 };
 const step30 = () => {
   editTextDisplay.textContent = 'for';
+  editDisplay.classList.add('step10');
 };
 const step31 = () => {
   editTextDisplay.textContent = 'her';
 };
 const step32 = () => {
   editTextDisplay.textContent = 'godamn';
+  editDisplay.classList.add('step11');
 };
 const step33 = () => {
   editTextDisplay.textContent = 'wasted';
 };
 
-function playWastedEditAudio() {
+function playWastedEdit() {
   wastedEditAudio.play();
   setTimeout(() => {
     editTextDisplay.style.opacity = 100;
@@ -167,10 +169,6 @@ function playWastedEditAudio() {
   playBtn.disabled = true;
   playBtn.style.opacity = 0;
   playBtn.style.cursor = 'default';
-  editTextDisplay.style.opacity = 0;
-  setTimeout(() => {
-    editTextDisplay.textContent = '';
-  }, 1500);
 };
 
-playBtn.addEventListener('click', playWastedEditAudio);
+playBtn.addEventListener('click', playWastedEdit);

@@ -5,6 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: black;
 }
 
 button {
@@ -12,9 +13,10 @@ button {
   transition: opacity 2s;
 }
 
-p {
+.edit-display {
   text-align: center;
   transition: opacity 2s;
+  color: white;
 }
 
 .edit-display {
@@ -58,6 +60,14 @@ p {
 
 .step9 {
   animation: step9 2.5s ease-in-out;
+}
+
+.step10 {
+  animation: step10 1.4s ease-in-out;
+}
+
+.step11 {
+  animation: step11 2.325s forwards;
 }
 
 @keyframes step1 {
@@ -186,5 +196,60 @@ p {
 
   100% {
     color: rgb(100, 16, 30);
+  }
+}
+
+@keyframes step10 {
+  0% {
+    color:rgb(100, 16, 30);
+  }
+
+  50% {
+    transform: translateX(50px) rotate(360deg);
+    color: rgb(194, 33, 60);
+  }
+
+  100% {
+    color: rgb(100, 16, 30);
+  }
+}
+
+@keyframes step11 {
+  0% {
+    color: rgb(194, 33, 60);
+  }
+
+  12.5% {
+    color: rgb(100, 16, 30);
+  }
+
+  25% {
+    color: rgb(194, 33, 60);
+  }
+
+  37.5% {
+    color:rgb(100, 16, 30);
+  }
+
+  50% {
+    color: rgb(194, 33, 60);
+  }
+
+  62.5% {
+    color: rgb(100, 16, 30);
+  }
+
+  75% {
+    color: rgb(194, 33, 60);
+  }
+
+  87.5% {
+    color: rgb(194, 33, 60);
+  }
+
+  100% {
+    color:rgb(100, 16, 30);
+    transform: scale(300%);
+    opacity: 0;
   }
 }
