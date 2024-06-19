@@ -126,6 +126,10 @@ const step33 = () => {
 
 function playWastedEditAudio() {
   wastedEditAudio.play();
+  setTimeout(() => {
+    editTextDisplay.style.opacity = 100;
+    
+  }, 1500);
   setTimeout(step1, 2780);
   setTimeout(step2, 4087);
   setTimeout(step3, 4347);
@@ -163,6 +167,10 @@ function playWastedEditAudio() {
   playBtn.disabled = true;
   playBtn.style.opacity = 0;
   playBtn.style.cursor = 'default';
+  editTextDisplay.style.opacity = 0;
+  setTimeout(() => {
+    editTextDisplay.textContent = '';
+  }, 1500);
 };
 
 playBtn.addEventListener('click', playWastedEditAudio);
